@@ -1,11 +1,14 @@
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
+body {
+  background-image: url("https://res.cloudinary.com/ds57cmzxo/image/upload/c_limit,f_auto,q_80/v1/Webseite/new/Sommer/Landschaften_Restaurants/3906001.003_STAG_Sommerbilder_Saas-Almagell_064");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-body {
-  margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+main {
+  padding: 30px;
+width: 70%;
+margin: 20px auto;
+background-color: rgba(255, 255, 255, 0.7);
+
 }
