@@ -30,9 +30,20 @@ h1 {
   align-items: center;
   
   background-color: cyan;
+  border-radius: 25px;
 
   margin: 50px auto;
   padding: 10px;
   width: 100px;
   height: 10px;
 }
+
+
+.text:hover {
+  animation: scale-anim 0.2s both ease-in;
+}
+@keyframes scale-anim {
+  from {transform: scale(1)}
+  to {transform: scale(1.1)}
+}
+
