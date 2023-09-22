@@ -86,9 +86,15 @@ background-color: rgba(255, 255, 255, 0.7);
 
 h1 {
   text-align: center;
-  color: white;
+  color:black ;
 }
 
+#scroll_button {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  margin-left: 90%;
+}
 
 .Box  {
   display: flex;
