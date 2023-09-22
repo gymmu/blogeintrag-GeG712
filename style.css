@@ -5,27 +5,40 @@ body {
   background-size: cover;
 }
 
-/* Wird momentan nicht benutzt
 
-{
-  padding: 30px;
-width: 70%;
-margin: 20px auto;
+.TextLeft{
+margin-top: 100px;
+padding: 30px;
+width: 50%;
+margin-left: 30px;
 background-color: rgba(255, 255, 255, 0.7);
+}
 
-} */
+.TextRight{
+  margin-top: 100px;
+  padding: 30px;
+  width: 50%;
+  margin-left: 550px;
+  background-color: rgba(255, 255, 255, 0.7);
 
+}
+
+#zurück {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
 
 #ErsteSeite {
   position: absolute;
-  right: 50px;
-  top: 0px;
+  left: 50px;
+  top: 10px;
 }
 
 #ZweiteSeite{
   position: absolute;
-  right: 300px;
-  top: 0px;
+  left: 300px;
+  top: 10px;
 }
 
 
